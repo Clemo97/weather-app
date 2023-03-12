@@ -3,7 +3,7 @@ export interface Weather {
   main: {
     temp: number;
     pressure: number;
-    humiditiy: number;
+    humidity: number;
   };
   wind: {
     speed: number;
