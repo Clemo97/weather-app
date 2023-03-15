@@ -4,9 +4,12 @@
 </mat-form-field>
 <mat-card *ngIf="weather">
   <mat-card-header>
-    <mat-card-title>{{weather.name}},
-      {{weather.sys.country}}</mat-card-title>
-    <mat-card-subtitle>{{weather.weather[0].main}}
+    <mat-card-title>
+      {{weather.name}},
+      {{weather.sys.country}}
+    </mat-card-title>
+    <mat-card-subtitle>
+      {{weather.weather[0].main}}
     </mat-card-subtitle>
   </mat-card-header>
   <img mat-card-image src="https://openweathermap.org/img/wn/

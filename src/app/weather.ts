@@ -1,6 +1,7 @@
 export interface Weather {
   weather: WeatherInfo[],
   main: {
+    temp_min: string|number;
     temp: number;
     pressure: number;
     humidity: number;
